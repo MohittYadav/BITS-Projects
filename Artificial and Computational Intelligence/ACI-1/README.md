@@ -63,10 +63,6 @@ Language: Python 3
 
 Libraries:
 
-networkx (for graph representation)
-
-matplotlib (for visualization, if used)
-
 collections / heapq (for priority queues & data structures)<br>
 
 <strong>✨ Future Improvements</strong>
