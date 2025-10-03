@@ -1,5 +1,5 @@
-This project implements a two-player Connect Four game where a human player competes against an AI opponent. The AI uses the Minimax algorithm with alpha-beta pruning and a fixed depth of 3 to make strategic moves. The game is built in Python 3 using NumPy for board representation and follows standard Connect Four rules on a 7x6 grid.
-Key Features:
+This project implements a two-player Connect Four game where a human player competes against an AI opponent. The AI uses the Minimax algorithm with alpha-beta pruning and a fixed depth of 3 to make strategic moves. The game is built in Python 3 using NumPy for board representation and follows standard Connect Four rules on a 7x6 grid.<br>
+Key Features:<br>
 Grid Representation: 6×7 board using NumPy arrays
 
 Human Input: Column selection with validation
@@ -10,7 +10,7 @@ Game Logic: Turn-based gameplay with win/draw detection
 
 Visual Output: Board display after each move
 
-🧠 AI Implementation Details
+🧠 AI Implementation Details<br>
 Static Evaluation Function
 The AI uses a sophisticated evaluation function that considers:
 
@@ -22,7 +22,7 @@ Threat Detection: Awards points for potential wins and blocks opponent threats
 
 Strategic Positioning: Values partial sequences (2-in-a-row, 3-in-a-row)
 
-Scoring Breakdown:
+Scoring Breakdown:<br>
 4 in a row: +100 points
 
 3 in a row with empty space: +5 points
@@ -66,7 +66,7 @@ Game ends immediately when a player wins
 
 Draw if board fills completely
 
-📊 Algorithm Performance
+📊 Algorithm Performance<br>
 The Minimax algorithm with depth 3 provides:
 
 Reasonable computation time for human-paced gameplay
