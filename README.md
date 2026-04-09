@@ -8,8 +8,6 @@ The focus is on writing clean, well-documented, and reproducible code for academ
 
 🎯 Objective
 
-Strengthen foundations in Data Science and Applied Mathematics involving algorithm design and analysis.
-
-Apply optimization and AI techniques to real-world problems.
+Apply optimization and AI techniques to real-world problems involving algorithm design and analysis.
 
 Build a structured knowledge base for future research and projects.
