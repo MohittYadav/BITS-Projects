@@ -15,9 +15,9 @@ Part-of-Speech (POS) Tagging: Implementation and display of POS tags on sample t
 
 Parsing Implementation:
 
-Visualization of Dependency Parsing (using an efficient approach like the Arc-Eager algorithm, likely via spaCy).
+Visualization of Dependency Parsing using an efficient approach like the Arc-Eager algorithm via spaCy.
 
-Visualization of Statistical Parsing (using an approach like the PCFG model, likely via Stanford Parser/NLTK).
+Visualization of Statistical Parsing using an approach like the PCFG model via Stanford Parser/NLTK.
 
 Efficiency Comparison: Detailed comparison of the Time Complexity and Runtime of the two parsing approaches.
 
@@ -31,6 +31,6 @@ The notebook relies on common libraries for NLP and data science. You will likel
 
 pandas, numpy, matplotlib, seaborn
 
-nltk (for tokenization, POS, and potentially PCFG tools)
+nltk (for tokenization, POS, and PCFG tools)
 
 spacy (for efficient dependency parsing)
