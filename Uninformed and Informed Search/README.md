@@ -1,17 +1,74 @@
-# Uninformed and Informed Search Algorithms
+📌 Problem Statement
 
-## Uninformed Search
-Uninformed search algorithms, also known as blind search algorithms, do not have any additional information about states beyond the problem definition. These algorithms explore the search space without any guidance. Examples include:
-- **Breadth-First Search**: Explores all possible paths level by level before moving deeper. It guarantees the shortest path if the cost is uniform.
-- **Depth-First Search**: Explores as far as possible along each branch before backtracking.
+In the fast-growing field of logistics and transportation, delivery drones have become increasingly important. One of the main challenges is to design an intelligent route planning system that ensures:
 
-### Application in Drone Delivery:
-For drone delivery optimization, uninformed search can be used for terrain exploration, ensuring that all potential routes are considered even if they are not optimized initially.
+Efficient and timely deliveries
 
-## Informed Search
-Informed search algorithms use heuristics to guide the search process. They evaluate nodes based on the estimated cost to reach the goal. Examples include:
-- **A***: Uses a heuristic to compute the total estimated cost from the start node to the goal node.
-- **Greedy Best-First Search**: Expands the node that appears to be closest to the goal without considering the cost from the start node.
+Avoidance of obstacles and no-fly zones
 
-### Application in Drone Delivery:
-Informed search algorithms are crucial for optimizing routes by predicting the most efficient pathways, leading to faster delivery times and reduced energy consumption.
+Adaptability to dynamic urban environments
+
+🎯 Objective
+
+Develop a Python application using uninformed search algorithms to plan optimal drone delivery routes. The application should consider:
+
+Distance minimization
+
+Delivery priorities
+
+Obstacles (tall buildings, restricted areas)
+
+No-fly zones
+
+Environment Representation:
+
+🟩 Green → Roads and buildings
+
+⬛ Black → Obstacles
+
+🟥 Red → No-fly zones
+
+🔵 Blue → Delivery points
+
+🧩 Implemented Algorithms
+
+The following uninformed search algorithms are applied:
+
+Uniform Cost Search (UCS)
+
+Depth First Search (DFS)
+
+Each algorithm is tested to find the shortest or feasible path from a user-defined start point to one or multiple delivery destinations.
+ <strong>⚙️ Features</strong>
+
+Accepts user input for start and destination nodes.
+
+Implements search algorithms for route planning.
+
+Computes and prints time and space complexity.
+
+Modular and well-documented Python code.
+
+📊 Complexity Analysis
+
+Each algorithm outputs:
+
+Time Complexity → Number of nodes explored.
+
+Space Complexity → Maximum frontier size during search.
+
+🛠️ Tech Stack
+
+Language: Python 3
+
+Libraries:
+
+collections / heapq (for priority queues & data structures)<br>
+
+<strong>✨ Future Improvements</strong>
+
+Extend to informed search (A*, Greedy Best-First Search).
+
+Incorporate real-world GIS data for better simulations.
+
+Add visualization of paths over a city grid.
